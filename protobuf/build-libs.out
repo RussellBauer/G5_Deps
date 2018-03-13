@@ -1,0 +1,258 @@
+make[1]: Entering directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf'
+cd protobuf-2.3.0;\
+	./configure --host=sh-linux-gnu \
+		CC=sh-linux-gnu-gcc \
+		--build=i686-pc-linux-gnu \
+		--prefix=/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/./install \
+		--with-protoc=/usr/local/bin/protoc ;
+checking build system type... i686-pc-linux-gnu
+checking host system type... sh-unknown-linux-gnu
+checking target system type... sh-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for sh-linux-gnu-strip... sh-linux-gnu-strip
+checking for sh-linux-gnu-gcc... sh-linux-gnu-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... yes
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether sh-linux-gnu-gcc accepts -g... yes
+checking for sh-linux-gnu-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of sh-linux-gnu-gcc... gcc3
+checking for sh-linux-gnu-g++... sh-linux-gnu-g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether sh-linux-gnu-g++ accepts -g... yes
+checking dependency style of sh-linux-gnu-g++... gcc3
+checking how to run the C++ preprocessor... sh-linux-gnu-g++ -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking C++ compiler flags...... use default: -O2  -g -DNDEBUG
+checking whether __SUNPRO_CC is declared... no
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by sh-linux-gnu-gcc... /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld
+checking if the linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/bin/sh-linux-gnu-nm -B
+checking the name lister (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/bin/sh-linux-gnu-nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1966080
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld option to reload object files... -r
+checking how to recognize dependent libraries... pass_all
+checking for sh-linux-gnu-ar... sh-linux-gnu-ar
+checking for sh-linux-gnu-strip... (cached) sh-linux-gnu-strip
+checking for sh-linux-gnu-ranlib... sh-linux-gnu-ranlib
+checking command to parse /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/bin/sh-linux-gnu-nm -B output from sh-linux-gnu-gcc object... ok
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether sh-linux-gnu-g++ accepts -g... (cached) yes
+checking dependency style of sh-linux-gnu-g++... (cached) gcc3
+checking how to run the C++ preprocessor... sh-linux-gnu-g++ -E
+checking for objdir... .libs
+checking if sh-linux-gnu-gcc supports -fno-rtti -fno-exceptions... no
+checking for sh-linux-gnu-gcc option to produce PIC... -fPIC -DPIC
+checking if sh-linux-gnu-gcc PIC flag -fPIC -DPIC works... yes
+checking if sh-linux-gnu-gcc static flag -static works... yes
+checking if sh-linux-gnu-gcc supports -c -o file.o... yes
+checking if sh-linux-gnu-gcc supports -c -o file.o... (cached) yes
+checking whether the sh-linux-gnu-gcc linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by sh-linux-gnu-g++... /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld
+checking if the linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) is GNU ld... yes
+checking whether the sh-linux-gnu-g++ linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) supports shared libraries... yes
+checking for sh-linux-gnu-g++ option to produce PIC... -fPIC -DPIC
+checking if sh-linux-gnu-g++ PIC flag -fPIC -DPIC works... yes
+checking if sh-linux-gnu-g++ static flag -static works... yes
+checking if sh-linux-gnu-g++ supports -c -o file.o... yes
+checking if sh-linux-gnu-g++ supports -c -o file.o... (cached) yes
+checking whether the sh-linux-gnu-g++ linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for working memcmp... no
+checking for working strtod... no
+checking for pow... yes
+checking for ftruncate... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for strchr... yes
+checking for strerror... yes
+checking for strtol... yes
+checking zlib version... ok (1.2.0.4 or later)
+checking for library containing zlibVersion... -lz
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking whether to check for GCC pthread/shared inconsistencies... yes
+checking whether -pthread is sufficient with -shared... yes
+checking the location of hash_map... <tr1/unordered_map>
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating protobuf.pc
+config.status: creating protobuf-lite.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+=== configuring in gtest (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/protobuf-2.3.0/gtest)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/./install'  '--host=sh-linux-gnu' 'CC=sh-linux-gnu-gcc' '--build=i686-pc-linux-gnu' '--with-protoc=/usr/local/bin/protoc' 'build_alias=i686-pc-linux-gnu' 'host_alias=sh-linux-gnu' --cache-file=/dev/null --srcdir=.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for sh-linux-gnu-strip... sh-linux-gnu-strip
+checking for sh-linux-gnu-gcc... sh-linux-gnu-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... yes
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether sh-linux-gnu-gcc accepts -g... yes
+checking for sh-linux-gnu-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of sh-linux-gnu-gcc... gcc3
+checking for sh-linux-gnu-g++... sh-linux-gnu-g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether sh-linux-gnu-g++ accepts -g... yes
+checking dependency style of sh-linux-gnu-g++... gcc3
+checking build system type... i686-pc-linux-gnu
+checking host system type... sh-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by sh-linux-gnu-gcc... /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld
+checking if the linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/bin/sh-linux-gnu-nm -B
+checking the name lister (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/bin/sh-linux-gnu-nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1966080
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld option to reload object files... -r
+checking how to recognize dependent libraries... pass_all
+checking for sh-linux-gnu-ar... sh-linux-gnu-ar
+checking for sh-linux-gnu-strip... (cached) sh-linux-gnu-strip
+checking for sh-linux-gnu-ranlib... sh-linux-gnu-ranlib
+checking command to parse /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/bin/sh-linux-gnu-nm -B output from sh-linux-gnu-gcc object... ok
+checking how to run the C preprocessor... sh-linux-gnu-gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether sh-linux-gnu-g++ accepts -g... (cached) yes
+checking dependency style of sh-linux-gnu-g++... (cached) gcc3
+checking how to run the C++ preprocessor... sh-linux-gnu-g++ -E
+checking for objdir... .libs
+checking if sh-linux-gnu-gcc supports -fno-rtti -fno-exceptions... no
+checking for sh-linux-gnu-gcc option to produce PIC... -fPIC -DPIC
+checking if sh-linux-gnu-gcc PIC flag -fPIC -DPIC works... yes
+checking if sh-linux-gnu-gcc static flag -static works... yes
+checking if sh-linux-gnu-gcc supports -c -o file.o... yes
+checking if sh-linux-gnu-gcc supports -c -o file.o... (cached) yes
+checking whether the sh-linux-gnu-gcc linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by sh-linux-gnu-g++... /home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld
+checking if the linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) is GNU ld... yes
+checking whether the sh-linux-gnu-g++ linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) supports shared libraries... yes
+checking for sh-linux-gnu-g++ option to produce PIC... -fPIC -DPIC
+checking if sh-linux-gnu-g++ PIC flag -fPIC -DPIC works... yes
+checking if sh-linux-gnu-g++ static flag -static works... yes
+checking if sh-linux-gnu-g++ supports -c -o file.o... yes
+checking if sh-linux-gnu-g++ supports -c -o file.o... (cached) yes
+checking whether the sh-linux-gnu-g++ linker (/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/tools/renesas-4.3/sh4-linux-gnu/sh4-linux-gnu/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for python... /usr/bin/python
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking whether to check for GCC pthread/shared inconsistencies... yes
+checking whether -pthread is sufficient with -shared... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating scripts/gtest-config
+config.status: creating build-aux/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make -C protobuf-2.3.0
+make[2]: Entering directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/protobuf-2.3.0'
+make  all-recursive
+make[3]: Entering directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/protobuf-2.3.0'
+Making all in .
+make[4]: Entering directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/protobuf-2.3.0'
+make[4]: Leaving directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/protobuf-2.3.0'
+Making all in src
+make[4]: Entering directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/protobuf-2.3.0/src'
+/usr/local/bin/protoc -I. --cpp_out=. google/protobuf/unittest.proto google/protobuf/unittest_empty.proto google/protobuf/unittest_import.proto google/protobuf/unittest_mset.proto google/protobuf/unittest_optimize_for.proto google/protobuf/unittest_embed_optimize_for.proto google/protobuf/unittest_custom_options.proto google/protobuf/unittest_lite.proto google/protobuf/unittest_import_lite.proto google/protobuf/unittest_lite_imports_nonlite.proto google/protobuf/unittest_no_generic_services.proto google/protobuf/compiler/cpp/cpp_test_bad_identifiers.proto
+make[4]: /usr/local/bin/protoc: Command not found
+make[4]: *** [unittest_proto_middleman] Error 127
+make[4]: Leaving directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/protobuf-2.3.0/src'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/protobuf-2.3.0'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf/protobuf-2.3.0'
+make[1]: *** [nodep] Error 2
+make[1]: Leaving directory `/home/rprajapati/Public/G5mc_kernel/g5mc/platform/sh7757/Project_sh7757_DRB_1206_0/src/apps/protobuf'
